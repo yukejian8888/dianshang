@@ -1,0 +1,30 @@
+[ 2016-11-08T01:31:07+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html/_/0.1555788051945861
+ERR: 非法操作:verifyImg.html
+
+[ 2016-11-08T01:31:07+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html/_/0.22337702622401534
+ERR: 非法操作:verifyImg.html
+
+[ 2016-11-08T01:31:10+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html/_/0.5498169329251208
+ERR: 非法操作:verifyImg.html
+
+[ 2016-11-08T01:31:31+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html/_/0.4547890549581348
+ERR: 非法操作:verifyImg.html
+
+[ 2016-11-08T01:31:32+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html/_/0.6695685887376917
+ERR: 非法操作:verifyImg.html
+
+[ 2016-11-08T01:31:43+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html/_/0.12725820882653016
+ERR: 非法操作:verifyImg.html
+
+[ 2016-11-08T01:32:36+08:00 ] 127.0.0.1 /index.php/Home/User/login.html0.3169119786990189
+ERR: 非法操作:login.html0.3169119786990189
+
+[ 2016-11-08T01:32:36+08:00 ] 127.0.0.1 /index.php/Home/User/login.html0.2731524992180787
+ERR: 非法操作:login.html0.2731524992180787
+
+[ 2016-11-08T01:33:15+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html0.1325293898050648
+ERR: 非法操作:verifyImg.html0.1325293898050648
+
+[ 2016-11-08T01:33:15+08:00 ] 127.0.0.1 /index.php/Home/User/verifyImg.html0.22166202253608636
+ERR: 非法操作:verifyImg.html0.22166202253608636
+

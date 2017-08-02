@@ -1,0 +1,29 @@
+    <div class="formbody">
+        <form action="" method="post" enctype="multipart/form-data">
+            <input type="hidden" name="role_id" value="{$roleinfo.role_id}">
+            <table>
+                <tr>
+                    <td style="font-size: 20px;">为<font style="color: red; font-size: 20px;">[{$roleinfo.role_name}]</font>分配权限</td>
+                </tr>
+            </table>
+            <table>
+                <foreach name="authinfoA" item="v">
+                <tr>
+                    <td style="width: 18%">
+                    <input type="checkbox" name="authid[]" value="{$v.auth_id}" <in name="v.auth_id" value="$roleinfo.role_auth_ids" >checked="checked"</in>/> 
+                    &nbsp;{$v.auth_name}</td>
+                    <td>
+                        <foreach name="authinfoB" item="vv">
+                        <eq name="vv.auth_pid" value="$v.auth_id">
+                        <div style="width: 200px; float: left;">
+                        <input type="checkbox" name="authid[]" value="{$vv.auth_id}" <in name="vv.auth_id" value="$roleinfo.role_auth_ids" >checked="checked"</in>/>
+                        &nbsp;{$vv.auth_name}</div>
+                        </eq>
+                        </foreach>
+                    </td>
+                </tr>
+            </foreach>
+            </table>
+            <input name="" id="btnSubmit" type="submit" class="btn" value="确认保存" />
+        </form>
+    </div>

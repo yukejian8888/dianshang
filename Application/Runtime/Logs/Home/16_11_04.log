@@ -1,0 +1,8 @@
+[ 2016-11-04T21:30:57+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/22.html
+ERR: 1146:Table 'shop.sp_goodsattr' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_goodsattr`
+
+[ 2016-11-04T21:33:27+08:00 ] 127.0.0.1 /index.php/Home/Goods/detail/goods_id/22.html
+ERR: 1146:Table 'shop.sp_goodsattr' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `sp_goodsattr`
+

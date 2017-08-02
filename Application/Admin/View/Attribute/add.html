@@ -1,0 +1,39 @@
+<div class="formbody">
+    <form action="" method="post" enctype="multipart/form-data">
+        <ul class="forminfo" id="general-cont" >
+            <li>
+                <label style="width: 120px;">属性名称:</label>
+                <input name="attr_name" placeholder="请输入属性名称" type="text" style="border: 1px solid #ccc;" />&nbsp;&nbsp;<span style="display:inline; color:red;">*</span><i>名称不能超过30个字符</i> 
+            </li>
+            <li>
+                <label style="width: 120px;">所属商品类型:</label>
+                <select name="type_id" style="border: 1px solid #ccc;">
+                    <option value="0">请选择</option>
+                    <foreach name="typeinfo" item="v">
+                        <option value="{$v.type_id}">{$v.type_name}</option>
+                    </foreach>
+                </select>&nbsp;&nbsp;<span style="display:inline; color:red;">*</span>
+            </li>
+            <li>
+                <label style="width: 120px;">属性是否可选:</label>
+                <input name="attr_sel" type="radio" value="0" checked="checked" />唯一属性
+                <input name="attr_sel" type="radio" value="1" />单选属性
+            </li>
+            <li>
+                <label style="width: 120px;">该属性值得录入方式:</label>
+                <input name="attr_write" type="radio" value="0" checked="checked" />手工录入
+                <input name="attr_write" type="radio" value="0" />从下面的列表中选择
+            </li>
+             <li>
+                <label style="width: 120px;">可选值列表:</label>
+                <textarea name="attr_vals" style="width: 400px;height: 100px;border: 1px solid #ccc;"></textarea><i>多个属性值通过"英文输入法逗号"分隔,例如"白色,黑色,粉色,金色"</i>
+            <li>
+                <label style="width: 120px;">&nbsp;</label>
+                <input name="" id="btnSubmit" type="submit" class="btn" value="确认保存" />
+            </li>              
+        </ul>
+    </form>
+</div>
+
+
+
